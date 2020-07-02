@@ -23,7 +23,7 @@ div {
 @keyframes move {
   0% {
     opacity: 0;
-    transform: scale(0) rotate(-25deg);
+    transform: scale(0) rotate(-45deg);
   }
   75% {
     transform: scale(1.10);
@@ -34,7 +34,7 @@ div {
   }
 }
 
-.vampeta{
+/* .vampeta{
   justify-content: start;
   background: no-repeat center top/40% url(img/Vampeta-sem-Camisa.jpg);
   animation: move ease-out .6s;
@@ -43,7 +43,7 @@ div {
 .vampeta > h1 {
   margin-top: 40px;
   font-size: 5rem;
-}
+} */
 
 .blue{
   background: #256;
@@ -70,7 +70,7 @@ div {
 .cindaquil {
   position: absolute;
   top: 0;
-  left: -6rem;
+  left: -12rem;
   overflow: hidden;
   margin: 1rem;    
   width: 400px;
@@ -81,13 +81,13 @@ div {
   -moz-box-shadow: 10px 10px 5px rgba(0,0,0,.3);
   -webkit-box-shadow: 10px 10px 5px rgba(0,0,0,.3);
   -khtml-box-shadow: 10px 10px 5px rgba(0,0,0,.3);
-  animation: move backwards ease-out .25s 1s;
+  animation: move backwards ease-in-out .35s .01s;
 }
 
 .squirtle {
   position: absolute;
-  top: 7rem;
-  left: 4rem;
+  top: 10rem;
+  left: 8rem;
   padding-top: 5rem;
   overflow: hidden;
   margin: 1rem;    
@@ -99,5 +99,5 @@ div {
   -moz-box-shadow: 10px 10px 5px rgba(0,0,0,.3);
   -webkit-box-shadow: 10px 10px 5px rgba(0,0,0,.3);
   -khtml-box-shadow: 10px 10px 5px rgba(0,0,0,.3);
-  animation: move backwards ease-out .25s 2s;
+  animation: move backwards ease-in-out .35s .8s;
 }
